@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karyaku - Fazli</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f4f6f9;
+      padding-top: 70px;
+    }
+    .card {
+      border-radius: 15px;
+    }
+    .work-img {
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px 12px 0 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Fazli</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarFazli">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarFazli">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profil.html">Profil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="karyaku.html">Karyaku</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeri.html">Galeri</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- CONTENT -->
+<div class="container">
+  <div class="text-center mb-4">
+    <h2 class="fw-bold">Karyaku</h2>
+    <p class="text-muted">Kumpulan karya dan proyek yang pernah saya buat</p>
+  </div>
+
+  <div class="row g-4">
+
+    <!-- KARYA 1 -->
+    <div class="col-md-4 col-sm-6">
+      <div class="card shadow h-100">
+        <img src="https://placehold.co/600x400?text=Website+Profil" class="work-img" alt="Website Profil">
+        <div class="card-body">
+          <h5 class="card-title">Website Profil Pribadi</h5>
+          <p class="card-text">
+            Website profil sederhana berisi data diri dan hobi saya.
+          </p>
+          <span class="badge bg-secondary">HTML</span>
+          <span class="badge bg-secondary">CSS</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- KARYA 2 -->
+    <div class="col-md-4 col-sm-6">
+      <div class="card shadow h-100">
+        <img src="https://placehold.co/600x400?text=Galeri+Foto" class="work-img" alt="Galeri Foto">
+        <div class="card-body">
+          <h5 class="card-title">Halaman Galeri</h5>
+          <p class="card-text">
+            Galeri foto kegiatan coding, sekolah, dan sepak bola.
+          </p>
+          <span class="badge bg-secondary">Bootstrap</span>
+          <span class="badge bg-secondary">HTML</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- KARYA 3 -->
+    <div class="col-md-4 col-sm-6">
+      <div class="card shadow h-100">
+        <img src="https://placehold.co/600x400?text=Belajar+Coding" class="work-img" alt="Belajar Coding">
+        <div class="card-body">
+          <h5 class="card-title">Latihan Coding Website</h5>
+          <p class="card-text">
+            Kumpulan latihan HTML, CSS, dan dasar JavaScript.
+          </p>
+          <span class="badge bg-secondary">HTML</span>
+          <span class="badge bg-secondary">JavaScript</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
